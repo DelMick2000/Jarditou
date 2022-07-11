@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jarditou - Contact</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device=width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <header>
+        <div class="titrelogo">
+            <img src="src/img/jarditou_logo.jpg" alt=jarditou title="jarditou" id="jarditou">
+            <br>
+            <h1> Formulaire </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Accueil">Accueil</a></li>
+                <li><a href="tableaux.html" title=Tableau>Tableau</a></li>
+                <li><a href="contact.html" title=Contact>Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <img src="src/img/promotion.jpg" alt="jarditou" title="jarditou" class="promotion">
+    </header>
+        <section>
+            <h2>Contact</h2>
+            <hr>
+            <article>
+                    <form action="http://bienvu.net/script.php" method="POST">
+                    <h3>*Ces zones sont obligatoires</h3>
+                <fieldset>
+                <legend>Vos coordonnées</legend>
+                    <br>
+                <label for="nom">Votre nom*:</label><input id="nom" type="text" name="nom" required>
+                <span id="nommanquant" ></span>
+                    <br>
+                <label for="prenom">Votre prénom* :</label><input id="prenom" type="text" name="prenom" required>
+                <span id="prenommanquant" ></span>
+                <br><br>
+                <samp>Sexe* :</samp>
+                    <input type="radio" name="Sexe*" value="Féminin" id="feminin"> Féminin<input type="radio" name="Sexe*" value="Masculin" id="masculin" required> Masculin
+                <span id ="sexemanquant" ></span>
+                    <br><br>
+                <label for="naissance">Date de naissance* :</label><input id="naissance" type="date" name="naissance" required>
+                <span id= "naissancemanquant"></span>
+                    <br>
+                <label for="postal">Code postal* :</label><input id="postal" type="text" name="postal" required>
+                <span id ="postalmanquant" ></span>
+                    <br>
+                <label for="adresse">Adresse :</label><input id="adresse" type="text" name="adresse" required>
+                <span id = "adressemanquant" ></span>
+                    <br>
+                <label for="ville">Ville :</label><input id="ville" type="text" name="ville" id="ville" required>
+                <span id = "villemanquant" ></span>
+                    <br>
+                <label for="email">Email* :</label><input  type="text" name="email" id="email" placeholder="dave.loper@afpa.fr" required>
+                <span id = "emailmanquant" ></span>
+            </form>
+            </fieldset>
+                    <br>
+            <fieldset>
+                <legend>Votre demande</legend>
+                <label for="sujet"> Sujet* : </label> 
+                <select required id="sujet">
+                <option value="" selected> Veuillez selectionner un sujet </option>
+                <option value="Mes commandes">Mes commandes</option>
+                <option value="Question sur un produit">Question sur un produit</option>
+                <option value="Réclamation">Réclamation</option>
+                <option value="Autres">Autres</option>
+            </select>
+            <span id="sujetmanquant" ></span>
+                    <br>
+                <label for="question"  >Votre question* :</label>
+                <textarea id = "question" name="Votre question*" rows="3" cols="32" required></textarea>
+                <span id = "questionmanquante" ></span>
+            </fieldset>
+                    <br>
+                <samp><input required id = "traitement" type="checkbox" name="traitement" value="formulaire" check> * J'accepte le traitement informatique de ce formulaire </samp>
+                <span id = traitementmanquant ></span>
+                    <br><br>
+                <button type="submit" id="envoyer">Envoyer </button >
+                <button type="reset">Annuler</button>
+            </article>
+            </fieldset>
+                <br>
+            <footer>
+                <ul>
+                    <li><a href="#" title="Mention légales">Mention légales</a></li>
+                    <li><a href="#" title="Horaires">Horaires</a></li>
+                    <li><a href="#" title="Plan du site">Plan du site</a></li>
+                </ul>
+            </footer>
+        <script src="assets/js/formulaire.js"></script>
+    </body>
+</html>

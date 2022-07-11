@@ -1,0 +1,94 @@
+nav, footer {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.promotion {
+    width: 100%;
+    height: auto;
+}
+
+#jarditou {
+    width:25%
+}
+
+a {
+    color: white;
+    
+}
+
+li {
+    display: inline-block;
+}   
+
+.titrelogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+hr {
+    color:rgb(255, 255, 255)
+}
+
+.colonnedroite {
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    width: 800px;
+    background-color: #a7a7a7;
+    border: 5px solid #a7a7a7;
+
+}
+
+.accueil_colonne_paragraphe {
+    display: flex;
+
+}
+
+@media screen and (max-width: 768px) 
+{ 
+    .accueil_colonne_paragraphe
+    {
+    
+    font-size: 15px;
+    }
+    .colonnedroite
+    {
+    display: none
+    }
+    h1 
+    {
+    font-size: 20px
+    }
+    li
+    {
+    display: list-item
+    }
+}
+
+#Aramis {
+    width:90px;
+}
+
+#Athos {
+    width:90px;
+}
+
+#Clatronic {
+    width:90px;
+}
+
+#Camping {
+    width:90px;
+}
+
+#Green {
+    width:90px;
+}
